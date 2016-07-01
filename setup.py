@@ -53,8 +53,8 @@ setup(
 
     # Scripts
     entry_points={
-        'console_scripts': [
-            'list-sessions = active_sessions.__main__:main'
+        'active_session': [
+            'active_session = active_sessions.__main__:main'
             'active-sessions = active_sessions.__main__:get_current_users'
         ],
     },
