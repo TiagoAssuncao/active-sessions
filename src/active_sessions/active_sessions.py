@@ -18,4 +18,6 @@ def get_current_users():
 def show_sessions(sender, **kwargs):
     queryset = get_current_users()
     print("Active sessions: ", queryset.count())
+    for user in queryset:
+        print("Usuário: (", user, ") Last login: ", user.last_login)
 
