@@ -32,6 +32,8 @@ setup(
     url='https://github.com/DAS2016-1/about_us',
     description='Shows the online users in the system using Django',
     long_description=open('README.rst').read(),
+    license='GPL3',
+    keywords='django sessions online',
 
     # Classifiers (see https://pypi.python.org/pypi?%3Aaction=list_classifiers)
     classifiers=[
