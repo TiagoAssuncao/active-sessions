@@ -29,8 +29,8 @@ setup(
     version=version,
     author=author,
     author_email='tiago@sof2u.com',
-    url='',
-    description='A short description for your project.',
+    url='https://github.com/DAS2016-1/about_us',
+    description='Shows the online users in the system using Django',
     long_description=open('README.rst').read(),
 
     # Classifiers (see https://pypi.python.org/pypi?%3Aaction=list_classifiers)
